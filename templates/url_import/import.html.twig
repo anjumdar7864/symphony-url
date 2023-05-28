@@ -1,0 +1,13 @@
+{# templates/url_import/import.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>URL Import</h1>
+    <p>A csv file which will have thousands of records will be saved in the form of batch operations <br/> I have set the batch size to 100 <br/><h3>For Urls as per point no 3. </h3><br/>
+    I have set normalize url function which will cover the url consideration requirement.</p>
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button type="submit">Import</button>
+    {{ form_end(form) }}
+{% endblock %}
