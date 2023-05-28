@@ -1,0 +1,3 @@
+url_import:
+  path: /url/import
+  controller: App\Controller\UrlImportController::import
